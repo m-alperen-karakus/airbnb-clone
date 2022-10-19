@@ -1,0 +1,31 @@
+.hero{
+    display: flex;
+    align-items: center;
+    margin: 125px 100px 50px 100px;
+    justify-content: center;
+}
+.heroImg{
+    width: 75%;
+    min-width: 280px;
+}
+.article{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.article > h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.article > p{
+    font-size: 30px;
+    width: 50%;
+}
+
+@media screen and (max-width:900px) {
+    .article > p{ width: 70%; font-size: 18px;}
+    .article { margin-left: 5%;}
+    .article > h1{ font-size: 32px;}
+
+}
